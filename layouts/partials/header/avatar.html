@@ -1,0 +1,10 @@
+{{ $avatar := resources.GetMatch .Site.Params.avatar }} 
+
+<div class="logo flex-none overflow-hidden">
+  <a href="{{ .Site.BaseURL }}">
+    <img
+      src="{{ $avatar.RelPermalink }}"
+      alt="{{ .Site.Title }}"
+    />
+  </a>
+</div>

@@ -1,0 +1,17 @@
+baseURL = 'http://claycray.com/'
+copyright = "{year}"
+languageCode = 'en-AU'
+defaultContentLanguage = 'en'
+theme = 'enchanted-lowkey'
+title = 'Clay Cray'
+enableRobotsTXT = true
+summaryLength = 15
+pagination.pagerSize = 10
+[outputs]
+home = ["html", "rss", "podcast"]
+[outputFormats.podcast]
+mediatype   = "application/rss+xml"
+baseName    = "podcast"
+isPlainText = false
+noUgly      = true
+path        = "/"
