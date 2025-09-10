@@ -6,7 +6,7 @@
   <channel>
 	<title>{{ .Site.Title }}</title>
 	<link>{{ .Site.BaseURL }}</link>
-	<description>{{ .Site.Params.homeInfoParams.Content }}</description>
+	<description>A podcast all about working, teaching and making with clay.</description>
 	<language>{{ .Site.LanguageCode }}</language>
 	<lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
 	<atom:link href="{{ "podcast.xml" | absURL }}" rel="self" type="application/rss+xml"/>
