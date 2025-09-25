@@ -12,15 +12,15 @@
 	<atom:link href="{{ "podcast.xml" | absURL }}" rel="self" type="application/rss+xml"/>
 	
 	{{/* iTunes specific tags */}}
-	<itunes:author>Saadia Carbis</itunes:author>
+	<itunes:author>Lindy Saunders &amp; Talia Carbis</itunes:author>
 	<itunes:image href="{{ "artwork.png" | absURL }}"/>
 	<itunes:subtitle text="Tune in for a new podcast with Lindy (A Little Creative) and Talia (Wattle Ceramics) as they talk all about working, teaching and making with clay."/>
 	<itunes:category text="Technology"/>
 	<itunes:category text="Education"/>
 	<itunes:explicit>false</itunes:explicit>
 	<itunes:owner>
-		<itunes:name>Saadia Carbis</itunes:name>
-		<itunes:email>saadia@carb.is</itunes:email>
+		<itunes:name>Talia Carbis</itunes:name>
+		<itunes:email>talia@carbis.com.au</itunes:email>
 	</itunes:owner>
 
 	{{ range where (where .Site.RegularPages "Section" "episodes") "Params.audio" "!=" nil }}
